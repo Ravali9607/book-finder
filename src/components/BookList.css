@@ -1,0 +1,23 @@
+/* BookList.css */
+.book-card {
+    height: 100%; /* Ensure cards are of equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .book-card-image {
+    height: 200px; /* Set a consistent image height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
+  .book-card-title.card-title.h5 {
+    font-size: 20PX;
+}
+  
+  @media (max-width: 768px) {
+    .book-card-image {
+      height: 150px;
+    }
+  }
+  
